@@ -119,11 +119,10 @@ body {
 }
 
 @media (min-width: 768px) {
-    body {
+    body{
         letter-spacing: 2px !important;
         padding: 10px 50px !important;
     }
-
     .text-lg {
         font-size: 0.625rem !important;
     }
@@ -364,11 +363,10 @@ body {
                 <div class="w-full  border-2 border-black py-3">
                     <div class="flex">
 
-                        <div class="w-full px-4 py-1">
-
+                        <div class="w-1/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title">ZAGANA</p>
                             <div class="relative">
-                                <!-- <img :src="zaganaWeb" alt=""> -->
+                                <img :src="zaganaWeb" alt="">
                             </div>
                             <p class="text-left text-lg font-title   cursor-pointer italic">**Note: In case the website
                                 is unavailable, please click here to view screen recordings of the site. </p>
@@ -383,6 +381,10 @@ body {
                                 Storefront - desktop version</p>
 
 
+                        </div>
+
+
+                        <div class="w-2/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title underline">Description</p>
                             <p class="text-left px-5 text-lg font-body mb-2">*This is an online platform that offers
                                 fresh produce for sale, consisting of two main sections: the Storefront and the Admin
@@ -412,11 +414,11 @@ body {
             <div class="flex mb-2 border-black">
                 <div class="w-full  border-2 border-black py-3">
                     <div class="flex">
-
-
-                        <div class="w-full px-4 py-1">
-
+                        <div class="w-1/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title">Daily by Bo's Coffee</p>
+                            <div class="relative">
+                                <img :src="dailyWeb" alt="">
+                            </div>
                             <p class="text-left text-lg font-title   cursor-pointer italic">**Note: In case the website
                                 is unavailable, please click here to view screen recordings of the site. </p>
                             <p class="text-left text-lg font-title underline cursor-pointer"
@@ -428,6 +430,12 @@ body {
                             <p class="text-left text-lg font-title underline cursor-pointer"
                                 @click="hanldeLinkTo('https://www.dropbox.com/scl/fo/iddk7zllvb5n1op4mpvf3/h?dl=0&e=1&preview=daily-desktop.mp4&rlkey=p6kr6vqkqzlodinulta095zo0')">
                                 Storefront - desktop version</p>
+
+
+                        </div>
+
+
+                        <div class="w-2/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title underline">Description</p>
                             <p class="text-left px-5 text-lg font-body mb-2">*This is an online platform that offers
                                 coffee/non-coffee product for sale, consisting of two main sections: the Storefront and
@@ -455,11 +463,17 @@ body {
             <div class="flex mb-2 border-black">
                 <div class="w-full  border-2 border-black py-3">
                     <div class="flex">
-
-                        <div class="w-full px-4 py-1">
+                        <div class="w-1/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title">Orange Cafe</p>
+                            <div class="relative">
+                                <img :src="orangeCafe" alt="">
+                            </div>
                             <p class="text-left text-lg font-title   cursor-pointer italic">**Link: Unavailable </p>
 
+                        </div>
+
+
+                        <div class="w-2/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title underline">Description</p>
                             <p class="text-left px-5 text-lg font-body mb-2">*This is a simple web app that enables
                                 restocking, features a POS system, and generates reports.</p>
@@ -476,13 +490,19 @@ body {
             <div class="flex mb-2 border-black">
                 <div class="w-full  border-2 border-black py-3">
                     <div class="flex">
-
-
-                        <div class="w-fiull px-4 py-1">
+                        <div class="w-1/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title">Budget Plan</p>
+                            <div class="relative">
+                                <img :src="budgetPlan" alt="" style="height:300px; margin: 0 auto;">
+                            </div>
                             <p class="text-left text-lg font-title   cursor-pointer italic"
                                 @click="hanldeLinkTo('https://budgetplan-sheesh.surge.sh/')">**Link:
                                 https://budgetplan-sheesh.surge.sh/ </p>
+
+                        </div>
+
+
+                        <div class="w-2/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title underline">Description</p>
                             <p class="text-left px-5 text-lg font-body mb-2">*This is a personal project I created to
                                 track my expenses and savings. The web app records all expenses each month, and users
@@ -502,11 +522,20 @@ body {
             <div class="flex mb-2 border-black">
                 <div class="w-full  border-2 border-black py-3">
                     <div class="flex">
-                        <div class="w-full px-4 py-1">
+                        <div class="w-1/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title">San Juan City Hall</p>
+                            <div class="relative">
+                                <img :src="cityHall" alt="">
+                            </div>
                             <p class="text-left text-lg font-title underline cursor-pointer"
                                 @click="hanldeLinkTo('https://www.sanjuancity.gov.ph/SanJuanCity/Makabagong_SJ_Government')">
                                 San Juan City Website</p>
+
+
+                        </div>
+
+
+                        <div class="w-2/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title underline">Description</p>
                             <p class="text-left px-5 text-lg font-body mb-2">*This is a CMS platform designed to
                                 introduce and post news and updates about the city. </p>
@@ -526,13 +555,20 @@ body {
             <div class="flex mb-2 border-black">
                 <div class="w-full  border-2 border-black py-3">
                     <div class="flex">
-
-                        <div class="w-full px-4 py-1">
+                        <div class="w-1/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title">Robinsons Supermarket</p>
+                            <div class="relative">
+                                <img :src="robinsons" alt="">
+                            </div>
                             <p class="text-left text-lg font-title underline cursor-pointer"
                                 @click="hanldeLinkTo('https://www.robinsonssupermarket.com.ph/')">
                                 Robinsons Supermarket Website</p>
 
+
+                        </div>
+
+
+                        <div class="w-2/3 px-4 py-1">
                             <p class="text-left  text-2xl font-title underline">Description</p>
                             <p class="text-left px-5 text-lg font-body mb-2">*This is a CMS platform designed to
                                 introduce and post news and updates about the robinsons Supermarket. </p>
